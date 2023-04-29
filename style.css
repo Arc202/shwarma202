@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  width: 100%;
+  
+}
+body {
+ background: linear-gradient(45deg, lightcoral 50%, navy 50%);
+text-align: center ;
+}
+div {
+
+  
+text-align:  center;
+}
+.title {
+font-size: 64px;
+
+}
+border
+siv {
+color: red 
+}
+.money {
+border: solid
+tomato
+
+
+}
+h1 {
+font-family: 'Brush Script MT', cursive;
+  animation: color-change 5s linear infinite;
+ font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #00587a;
+  text-shadow: 2px 2px #fff;
+  margin-bottom: 10px;
+}
+
+#hi2 {
+  width: 200px;
+  height: 200px;
+}
+
+
+#ay {
+border:solid
+red;
+border-radius: 30px
+}
+
+@keyframes color-change {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  25% {
+    filter: hue-rotate(120deg);
+  }
+  50% {
+    filter: hue-rotate(240deg);
+  }
+  75% {
+    filter: hue-rotate(360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+
+}
+img {
+border: 2px solid red;
+border-bottom: 1px solid  blue;
+border-right: 2px solid  green;
+border-radius: 100px;
+  
+} 
+
+      * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #00587a;
+  text-shadow: 2px 2px #fff;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.money-img,
+.bitcoin-img,
+.percent-img {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 10px solid #00587a;
+  box-shadow: 5px 5px #b6b6b6;
+
